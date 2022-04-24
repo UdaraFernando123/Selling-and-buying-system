@@ -1,0 +1,60 @@
+<html>
+<!-- This component allows the broker to process items that are sold or expired before the current date and time, 
+and to report the “sold” and “failed” items -->
+<!--Student Name: Udara Gihanya Pragna Fernando-->
+<!--Student Number: 101458383-->
+
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+<link rel="stylesheet" type="text/css" href="style.css">
+<script src="maintenance.js"></script>
+
+</head>
+<body>
+<h1>ShopOnline </h1>
+<nav>
+  <ul id="MenuBar1">
+     <li><a href="login.htm">Home</a></li>
+    <li><a href="listing.htm">Listing</a></li>
+    <li><a href="bidding.htm">Bidding</a></li>
+    <li><a href="maintenance.htm">Maintenance</a></li>
+	<li><a href="logout.php">Log Out</a></li>
+  </ul>
+ </nav>
+<div class="content">
+  
+<center>
+  <br/>
+<br/>  
+	
+<fieldset class="login"><legend>Maintenance</legend>
+
+ 
+ <form name=" MaintenanceForm" action=""  method="post" >
+ <br/>
+
+
+<div class="button">
+<input class="bigbutton" type="submit" onclick="processItems()"   id="process" value="Process Auction Items" />
+<input class="bigbutton"type="button" onclick="generateReport();" id="generate" value="Generate Report" />
+</div>
+</form>
+  <br/>
+  <br/>
+ 
+ </fieldset>
+ <br/><br/>
+ <span id="example" >
+ </span>
+ 
+</center>
+<br />
+<br/>
+ 
+</div>
+
+ 
+
+</body>
+</html>

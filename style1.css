@@ -1,0 +1,163 @@
+ul {
+	
+    list-style-type: none;
+    margin: 0 ;
+    padding: 0;
+    overflow: hidden;
+    background-color:#39C;
+}
+
+li {
+    float: left;
+    border-right:1px solid #bbb;
+}
+
+li:last-child {
+    border-right: none;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    
+	background-color:  #ddd;
+    color: black;
+}
+
+.active {
+    background-color: #ddd;
+}
+body{
+	font-family: "Comic Sans MS", cursive;
+	font-size: 16px;
+	color: #39C;
+	background-color: #FFF;
+	
+}
+
+h1{margin-top:0px;
+	text-align:center;
+	
+	
+}
+
+/* Style the content */
+.content {
+    background-color: #ddd;
+    padding: 10px;
+	
+   
+}
+.login{
+	border-radius:10px;
+	border-color:#39C;
+	border-style:solid;
+	width:50%;
+	text-align:center;
+	
+	}
+	
+legend{
+color:#39C;
+}	
+.but{
+	background-color: #39C;
+    border: none;
+    color: white;
+    padding: 12px 32px;
+    text-decoration: none;
+    font-size: 16px;
+	width: 20%;
+	cursor: pointer;
+	opacity: 0.7;
+    transition: 0.3s;
+	margin-left:30px;
+ }
+ 
+.but:hover {
+opacity: 1;
+}
+	
+.button{
+width:100%;
+float:left;
+margin-left:24px;
+}
+
+input[type=text],[type=password]{
+    width: 80%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+}
+input.p{
+
+ width: 40%;
+
+
+}
+select{
+	
+    padding: 9px;
+	width: 26%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+	height:40px;
+	
+    
+	
+}
+select.category{
+width: 30%;
+margin-right:247px;
+
+
+}
+label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+	float:left;
+}
+
+
+.col-25 {
+    float:left;
+    width: 25%;
+    margin-top: 6px;
+}
+
+.col-75 {
+    float:left;
+    width: 75%;
+    margin-top: 6px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+#first{
+color:red;
+font-size:14px;
+font-style: italic;
+float:left;
+}
+span{
+color:red;
+font-size:14px;
+
+}
+
+
+

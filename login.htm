@@ -1,0 +1,76 @@
+<html>
+<!-- This file is responsible for allow an existing customer to login to the system and to allow a new customer to register 
+with the system -->
+<!--Student Name: Udara Gihanya Pragna Fernando-->
+<!--Student Number: 101458383-->
+
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+<link rel="stylesheet" type="text/css" href="style.css">
+<script src="login.js"></script>
+
+</head>
+<body>
+<h1>ShopOnline </h1>
+<nav>
+  <ul id="MenuBar1">
+    <li><a href="login.htm">Home</a></li>
+    <li><a href="listing.htm">Listing</a></li>
+    <li><a href="bidding.htm">Bidding</a></li>
+    <li><a href="maintenance.htm">Maintenance</a></li>
+	<li><a href="logout.php">Log Out</a></li>
+  </ul>
+ </nav>
+<div class="content">
+  
+<center>
+<h5>Please login below or to register as a new user,<a href="register.htm" style="color:#191970;">Register Here.</a></h5>
+<br/>
+<fieldset class="login"><legend>Login Details</legend>
+
+ <p><span id="first" class="error">* Required Fields</span></p>   
+ <form name="RegisterForm" action=""  method="post" >
+ <br/>
+   
+	
+	<div class="row">
+      <div class="col-25">
+       <label for="email">Email</label>
+      </div>
+      <div class="col-75">
+	  <span class="error">*</span>
+        <input type="text" name="email" required>
+		
+      </div>
+	  </div>
+    <div class="row">
+      <div class="col-25">
+        <label for="password">Password</label>
+      
+      </div>
+      <div class="col-75">
+	  <span class="error">*</span>
+        <input type="password" id="password" name="password" required>
+		
+      </div>
+    </div>
+	
+   <br/>
+   <div class="button">
+<input class="but" type="submit" onclick="return validateData()"   name="submit" value="Login" />
+<input class="but"type="reset" name="reset" value="Reset" />
+</div>
+  </form>
+<br/>
+<br/>
+ </fieldset>
+ </center>
+<br />
+<br/>
+
+</div>
+
+
+</body>
+</html>
